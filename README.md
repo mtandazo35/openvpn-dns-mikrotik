@@ -5,6 +5,24 @@ lo que los abonados mandan al VPS por el túnel conserva su IP real.
 
 > **Estado:** todavía sin probar en un VPS. No usar en producción hasta que esta nota desaparezca.
 
+## ⚡ Quick install (one-liner)
+
+En un VPS Debian 11+ o Ubuntu 22.04+, como root:
+
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/mtandazo35/openvpn-dns-mikrotik/main/openvpn_dns.sh)
+```
+
+Abre el menú: **1** instala OpenVPN y agrega el primer MikroTik, **2** agrega otro. Al final
+imprime el usuario, la clave (solo esa vez) y los comandos para pegar en el MikroTik.
+
+Sin menú:
+
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/mtandazo35/openvpn-dns-mikrotik/main/openvpn_dns.sh) instalar
+bash <(curl -fsSL https://raw.githubusercontent.com/mtandazo35/openvpn-dns-mikrotik/main/openvpn_dns.sh) agregar
+```
+
 ## Cómo funciona
 
 ```
