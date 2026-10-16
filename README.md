@@ -3,6 +3,8 @@
 Instalador OpenVPN para hasta 10 MikroTik (RouterOS v6 y v7) que llegan a un VPS **sin NAT**:
 lo que los abonados mandan al VPS por el túnel conserva su IP real.
 
+> **Estado:** todavía sin probar en un VPS. No usar en producción hasta que esta nota desaparezca.
+
 ## Cómo funciona
 
 ```
